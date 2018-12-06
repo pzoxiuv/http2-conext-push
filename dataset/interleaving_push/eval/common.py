@@ -6,7 +6,8 @@ PUSH_STRATEGY_JSON_FILENAMES = {
     "push_critical+criticial_css": "push_critical_optimized.json", #Nur renderkritische/ATF Resourcen werden gepusht + Critical CSS (bzw. critical CSS zuerst)
 
     "no_push": "nopush.json",
-    "no_push+criticial_css": "nopush_optimized.json"
+    "no_push+criticial_css": "nopush_optimized.json",
+    "our_strat": "our_strat.json",
 }
 
 AVAILABLE_SITES = [
