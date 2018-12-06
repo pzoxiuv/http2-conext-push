@@ -1,0 +1,37 @@
+{
+    "h2o_custom_scheduler": [
+        {
+            "critical_css_file": "../../../css/amazon/critical.css", 
+            "hostname": "www.amazon.com", 
+            "offset_compressed": 0, 
+            "content_file": "../../../html/amazon/captured.html", 
+            "critical_push_streams": 0, 
+            "offset_index": 0, 
+            "index_trigger_path": "/"
+        }
+    ], 
+    "push_configs": [
+        {
+            "push_host": "www.amazon.com", 
+            "push_trigger": "/", 
+            "push_resources": [
+                "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/redirect-overlay/redirect-overlay-nav-https-20140702._CB292562555_.css", 
+                "https://images-na.ssl-images-amazon.com/images/I/61TFomFpy4L._RC%7C11qlbytjBCL.css,31uhlNwRi9L.css,218SPNsG8BL.css,31qZr4W+nuL.css,11h94qpcz8L.css,31UlxNhlUML.css,01XHMOHpK1L.css_.css?AUIClients/NavDesktopMetaAsset", 
+                "https://images-na.ssl-images-amazon.com/images/I/01rgQ3jqo7L.css?AUIClients/A11yClientSideMetrics", 
+                "https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonGatewayHerotatorJS-ed6ce4798415244198b464cf366c538b1f2f2537._V2_.css", 
+                "https://images-na.ssl-images-amazon.com/images/I/61RATXmx2FL._RC%7C01evdoiemkL.css,01K+Ps1DeEL.css,31yErFkQitL.css,01kivkxD60L.css,11UGC+GXOPL.css,21LK7jaicML.css,11L58Qpo0GL.css,21EuGTxgpoL.css,01Xl9KigtzL.css,21ygesff1yL.css,019SHZnt8RL.css,01qy9K8SDEL.css,11vZhCgAHbL.css,21uiGhnhrlL.css,11WgRxUdJRL.css,01dU8+SPlFL.css,115DrTlDqNL.css,01SHjPML6tL.css,111-D2qRjiL.css,01QrWuRrZ-L.css,31Wkf2OUteL.css,0147N8LucwL.css,01Alnvtt1zL.css,01oZl+VEzRL.css_.css?AUIClients/AmazonUI", 
+                "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/redirect-overlay/redirect-overlay-nav-mx-https-20150828._CB311575010_.css", 
+                "https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonGatewayAuiAssets-588a494255c187302ab330fd04d2db36dacd618b._V2_.css"
+            ]
+        }, 
+        {
+            "push_host": "images-na.ssl-images-amazon.com", 
+            "push_trigger": "/images/G/01/Gateway/Unrec/2018/January/NYNY18_GW_Bubblers_200x200-BrightBuy._CB489957651_.jpg", 
+            "push_resources": [
+                "https://images-na.ssl-images-amazon.com/images/G/01/ape/sf/desktop/sf-1.18._V492556617_.html", 
+                "https://www.amazon.com/gp/redirection/canada.html", 
+                "https://www.amazon.com/gp/ad-feedback/lazyLoad/handler/feedback-link-handler.html?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS9zaG9wcGluZ1BvcnRhbC9kZXNrdG9wP19lbmNvZGluZz1VVEY4Jm9wZl9yZWRpcj0x%22%2C%22adElementId%22%3A%22ape_Gateway_right-2_desktop_placement%22%2C%22pageType%22%3A%22Gateway%22%2C%22slotName%22%3A%22right-2%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A%221001%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-east.amazon-adsystem.com%2Fe%2Fxsp%2Fimp%3Fb%3DQvstHrqhDERInVgpq-9Ao8cAAAFg293oGgEAAAH0AQx6I-s%22%2C%22adCreativeId%22%3A%224745455901%22%2C%22adId%22%3A%223120245001%22%2C%22adNetwork%22%3A%22aax%22%7D%7D&callback=r2_addFeedbackLink"
+            ]
+        }
+    ]
+}

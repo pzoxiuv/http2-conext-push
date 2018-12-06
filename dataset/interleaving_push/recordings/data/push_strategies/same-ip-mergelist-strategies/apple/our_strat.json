@@ -1,0 +1,42 @@
+{
+    "h2o_custom_scheduler": [
+        {
+            "critical_css_file": "../../../css/apple/critical.css", 
+            "hostname": "www.apple.com", 
+            "offset_compressed": 0, 
+            "content_file": "../../../html/apple/captured.html", 
+            "critical_push_streams": 0, 
+            "offset_index": 0, 
+            "index_trigger_path": "/"
+        }
+    ], 
+    "push_configs": [
+        {
+            "push_host": "www.apple.com", 
+            "push_trigger": "/", 
+            "push_resources": [
+                "https://www.apple.com/ac/globalnav/3/en_US/styles/ac-globalnav.built.css", 
+                "https://images.apple.com/v/home/dn/built/scripts/head.built.js", 
+                "https://www.apple.com/ac/globalfooter/3/en_US/styles/ac-globalfooter.built.css", 
+                "https://www.apple.com/ac/localnav/3.0/styles/ac-localnav.built.css", 
+                "https://www.apple.com/ac/ac-films/5.1.0/scripts/autofilms.built.js", 
+                "https://www.apple.com/ac/globalfooter/3/en_US/scripts/ac-globalfooter.built.js", 
+                "https://www.apple.com/wss/fonts?families=SF+Pro,v1%7CSF+Pro+Icons,v1", 
+                "https://www.apple.com/ac/globalnav/3/en_US/scripts/ac-globalnav.built.js", 
+                "https://images.apple.com/v/home/dn/built/styles/main.built.css", 
+                "https://www.apple.com/ac/ac-films/5.1.0/styles/modal.css", 
+                "https://www.apple.com/metrics/ac-analytics/2.2/scripts/ac-analytics.js", 
+                "https://www.apple.com/ac/localeswitcher/1/styles/localeswitcher.built.css", 
+                "https://images.apple.com/v/home/dn/built/scripts/main.built.js", 
+                "https://www.apple.com/ac/localeswitcher/1/scripts/localeswitcher.built.js"
+            ]
+        }, 
+        {
+            "push_host": "www.apple.com", 
+            "push_trigger": "/ac/globalnav/3/en_US/images/globalnav/search/image_large.svg", 
+            "push_resources": [
+                "https://www.apple.com/us/shop/bag/status?apikey=SFX9YPYY9PPXCU9KH"
+            ]
+        }
+    ]
+}

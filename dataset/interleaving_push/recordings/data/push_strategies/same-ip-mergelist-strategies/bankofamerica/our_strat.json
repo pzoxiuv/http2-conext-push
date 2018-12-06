@@ -1,0 +1,31 @@
+{
+    "h2o_custom_scheduler": [
+        {
+            "critical_css_file": "../../../css/bankofamerica/critical.css", 
+            "hostname": "www.bankofamerica.com", 
+            "offset_compressed": 0, 
+            "content_file": "../../../html/bankofamerica/captured.html", 
+            "critical_push_streams": 0, 
+            "offset_index": 0, 
+            "index_trigger_path": "/"
+        }
+    ], 
+    "push_configs": [
+        {
+            "push_host": "www.bankofamerica.com", 
+            "push_trigger": "/", 
+            "push_resources": [
+                "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/vendor/require/2.2.0/js/require.js", 
+                "https://www1.bac-assets.com/homepage/spa-assets/bundles/eff1f815.css", 
+                "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/platform/babel-polyfill.js"
+            ]
+        }, 
+        {
+            "push_host": "www1.bac-assets.com", 
+            "push_trigger": "/homepage/spa-assets/images/assets-images-site-homepage-news-BofA_tagline-CSXeda08bbb.svg", 
+            "push_resources": [
+                "https://www1.bac-assets.com/homepage/spa-assets/bundles/a5283069.js"
+            ]
+        }
+    ]
+}

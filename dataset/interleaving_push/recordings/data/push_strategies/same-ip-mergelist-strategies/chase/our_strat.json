@@ -1,0 +1,80 @@
+{
+    "h2o_custom_scheduler": [
+        {
+            "critical_css_file": "../../../css/chase/critical.css", 
+            "hostname": "www.chase.com", 
+            "offset_compressed": 0, 
+            "content_file": "../../../html/chase/captured.html", 
+            "critical_push_streams": 0, 
+            "offset_index": 0, 
+            "index_trigger_path": "/"
+        }
+    ], 
+    "push_configs": [
+        {
+            "push_host": "www.chase.com", 
+            "push_trigger": "/", 
+            "push_resources": [
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/chase-ux/js/dist/chase-ux.min.js", 
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/jquery/js/jquery-1.10.2.min.js", 
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/site.min.css", 
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/blue-ui.min.css", 
+                "https://www.chase.com/c/120317/apps/chase/clientlibs/foundation/scripts/Reporting.js", 
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/require/js/require.min.js"
+            ]
+        }, 
+        {
+            "push_host": "www.chase.com", 
+            "push_trigger": "/c/120317/etc/designs/chase-ux/css/blue-ui.min.css", 
+            "push_resources": [
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/smc.ttf", 
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/icomoon.ttf?uq76pe", 
+                "https://sites.chase.com/apps/campaignmanagement/clientlibs/slotplacement/js/slotplacement.min.js", 
+                "https://www.chase.com/etc/chase/appsconfig/clientconfig.js"
+            ]
+        }, 
+        {
+            "push_host": "www.chase.com", 
+            "push_trigger": "/etc/chase/appsconfig/clientconfig.js", 
+            "push_resources": [
+                "https://www.chase.com/content/chase-ux/en/structured/module/adcarousel/homepage-prospect/_jcr_content/module.html", 
+                "https://www.chase.com/content/chase-ux/en/structured/module/geoimage/ad-geo/_jcr_content/module.html", 
+                "https://www.chase.com/content/chase-ux/en/structured/module/adtriplet/primary-triplet/_jcr_content/module.html"
+            ]
+        }, 
+        {
+            "push_host": "www.chase.com", 
+            "push_trigger": "/content/chase-ux/en/structured/module/adcarousel/homepage-prospect/_jcr_content/module.html", 
+            "push_resources": [
+                "https://sites.chase.com/services/campaignmanagement/clientconfig.slotplacementconfig.js"
+            ]
+        }, 
+        {
+            "push_host": "www.chase.com", 
+            "push_trigger": "/c/120317/etc/designs/chase-ux/css/fonts/opensans-light.woff", 
+            "push_resources": [
+                "https://sites.chase.com/content/Creatives/Public/Triplets/2017/October/51184_propertybrostripcwo6863.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_jhomelending.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_savingsaccounts.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_cpc.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Heroes/2017/Card/Freedom/46994_freedomunlimitedherocwo2434.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_investing.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_autoloans.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Triplets/2017/October/51145_hp_acqcheckingtripletcwo-6774default.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/hp_carousel_checking.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Triplets/2017/December/51263_autotrio_tripletcwo7009def.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_creditcard.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_freecreditscore.dynamic.html", 
+                "https://sites.chase.com/content/Creatives/Public/Carousel/2017/November/carousel_chaseforbusiness.dynamic.html"
+            ]
+        }, 
+        {
+            "push_host": "rf15.chase.com", 
+            "push_trigger": "/activity", 
+            "push_resources": [
+                "https://rf15.chase.com/activity?_o=15629&_t=corp_wl_dynamicad&ssv_transid=158f0bec-47f744c0-359483b8-689c7991&ssv_random=510&ssv_adcontext=tripletLinkId:default;tripletImageId:default;tripletProductTitleId:default;tripletCopyTextId:default;tripletCallToActionId:default;tripletAlignmentId:default&ssv_placement=chasehome_3/trip3", 
+                "https://rf15.chase.com/activity?_o=15629&_t=corp_wl_viewimpression&ssv_transid=158f0bec-47f744c0-359483b8-689c7991&ssv_random=510&ssv_placement=chasehome_3/trip3&ssv_creativeid=66473754"
+            ]
+        }
+    ]
+}

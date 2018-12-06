@@ -1,0 +1,52 @@
+{
+    "h2o_custom_scheduler": [
+        {
+            "critical_css_file": "../../../css/bestbuy/critical.css", 
+            "hostname": "www.bestbuy.com", 
+            "offset_compressed": 0, 
+            "content_file": "../../../html/bestbuy/captured.html", 
+            "critical_push_streams": 0, 
+            "offset_index": 0, 
+            "index_trigger_path": "/"
+        }
+    ], 
+    "push_configs": [
+        {
+            "push_host": "www.bestbuy.com", 
+            "push_trigger": "/", 
+            "push_resources": [
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/react/15.3.1/react-dom.min.js", 
+                "https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/ghp-010717-promo1-0107-15908.jpg;maxHeight=309;maxWidth=457", 
+                "https://www.bestbuy.com/akam/10/1731aa7c", 
+                "https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js", 
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/react/15.3.1/react-with-addons.min.js", 
+                "https://assets.bbystatic.com/sc-libraries/javascript/require/config-7264162f4e34548dd6a83b0d20b5d711.js", 
+                "https://assets.bbystatic.com/header-footer/fetch-2.0.1.min.js", 
+                "https://assets.bbystatic.com/header-footer/analytics-q-1.1.0-build-updates.1.min.js", 
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/redux/3.5.2/redux.min.js", 
+                "https://assets.bbystatic.com/suggest/suggest-view-client-l-dd75f5d0d6cb11e7bef66b4ae080c87a.css", 
+                "https://assets.bbystatic.com/sc-pattern-library/dist/css/sc-pattern-library.min-948369c1e83fd2863bd8dd829282eaeb.css", 
+                "https://assets.bbystatic.com/site-control-page/less/main-l-f818b2a948c4e7e6b64f8c98af1d110f.css", 
+                "https://assets.bbystatic.com/header-footer/core-js-shim-2.4.1.min.js", 
+                "https://assets.bbystatic.com/header-footer/main-l-45ef435e608b70aed4b3bb60b0af042a.css", 
+                "https://assets.bbystatic.com/header-footer/hf-rt-b94cbecff317aca835df.js", 
+                "https://assets.bbystatic.com/price-view/price-view-56159a2923443d07fcb2.css", 
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/prop-types/15.5.10/prop-types.min.js"
+            ]
+        }, 
+        {
+            "push_host": "assets.bbystatic.com", 
+            "push_trigger": "/site-control-page/less/main-l-f818b2a948c4e7e6b64f8c98af1d110f.css", 
+            "push_resources": [
+                "https://assets.bbystatic.com/lib-priceblock/styles-l-d65ead0741a3000704994e4b9f71b417.css"
+            ]
+        }, 
+        {
+            "push_host": "www.bestbuy.com", 
+            "push_trigger": "/streams/v1/topics", 
+            "push_resources": [
+                "https://assets.bbystatic.com/header-footer/aec27028edc1acd9d5de.1.js"
+            ]
+        }
+    ]
+}
